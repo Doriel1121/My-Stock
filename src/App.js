@@ -3,6 +3,7 @@ import './App.css';
 import axios from 'axios';
 import {BrowserRouter as Router , Route , Switch} from 'react-router-dom';
 import LoadingPage from './components/LoadingPage';
+import SearchPage from './components/SearchPage';
 
 export class App extends Component {
   render() {
@@ -12,6 +13,10 @@ export class App extends Component {
           <Switch>
             <Route exact path="/">
               <LoadingPage/>
+            </Route>
+
+            <Route exact path="/search">
+              <SearchPage/>
             </Route>
           </Switch>
         </Router>

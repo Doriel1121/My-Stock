@@ -11,3 +11,10 @@ right: 32%;
 transform: translateX(-50%);
 transform: translateY(-50%);
 }
+
+#standard-basic{
+  margin-right: 10px;
+}
+.btnstyle{
+  height: 40px;
+fill: green;}
